@@ -1,0 +1,32 @@
+.square{
+    position: absolute;
+	width: 100px;
+	height: 100px;
+    background: red;
+    border: 1px solid black;
+    opacity: 0.8;
+    z-index: 1;
+}
+.triangle{
+    position: absolute;
+    width: 1px;
+	height: 1px;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+    border-bottom: 100px solid blue;
+    opacity: 0.8;
+    z-index: 1;
+}
+.circle{
+    position: absolute;
+	width: 100px;
+	height: 100px;	
+    border-radius: 50%;
+    background: green;
+    border: 1px solid black;
+    opacity: 0.8;
+    z-index: 1;
+}
+input{
+    z-index: 100;
+}
